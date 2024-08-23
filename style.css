@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+
+}
+
+.sidebar{
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    background-color: blue;
+
+    display: grid;
+    gap: 30px;
+}
+
+.sidebar-title{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.header{
+    grid-column: 2;
+    background-color: lightgrey;
+
+}
+
+.main-content{
+    grid-column: 2;
+    background-color: darkgrey;
+}
+
+.nav-item{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
