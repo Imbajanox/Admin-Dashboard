@@ -29,6 +29,8 @@
     gap: 30px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .sidebar-navigation, .sidebar-settings{
@@ -71,12 +73,14 @@
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 50px 60px;
     padding-right: 20px;
+    padding-left: 10px;
 }
 
 .main-content{
     grid-column: 2;
     background-color: #ccfbf1;
     color: #042f2e;
+    padding: 10px;
 }
 
 .nav-item{
@@ -144,9 +148,10 @@
 
 .actions{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
     gap: 10px;
     align-items: center;
+    justify-content: right;
 }
 
 .actions button{
@@ -155,4 +160,6 @@
     border-style: none;
     background-color: #042f2e;
     color: #f0fdfa;
+    font-weight: 700;
+    width: 70px;
 }
