@@ -184,7 +184,7 @@
 
 .card-holder{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: min-content auto;
     gap: 20px;
 
@@ -294,4 +294,18 @@
 hr{
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.user{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.user .icon-main-dark{
+    grid-row: 1 / span 2;
+    align-self: center;
+}
+
+.user p{
+    grid-column: 2;
 }
