@@ -95,7 +95,8 @@
     grid-column: 2;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: min-content auto;
+    grid-auto-rows: max-content;
+    gap: 10px;
     background-color: #ccfbf1;
     color: #042f2e;
     padding: 10px;
@@ -127,6 +128,8 @@
     border-style: none;
     height: 20px;
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .greeting{
