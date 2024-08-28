@@ -114,6 +114,11 @@
     justify-content: center;
 }
 
+.nav-item a{
+    text-decoration: none;
+    color: #f0fdfa;
+}
+
 .searchbar{
     display: grid;
     grid-template-columns: 1fr 9fr;
