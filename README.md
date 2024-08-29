@@ -19,4 +19,6 @@ You can view the Page [here](https://imbajanox.github.io/Admin-Dashboard/)
 
 - Responsive design for mobile devices
 
+## Preview
 
+![Preview](./images/AdminDashboardDesktop.png)
